@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets (Requirement 87, 117)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build artifacts
+dist/
+build/
+
+# Local databases & logs
+*.log
+npm-debug.log*
+server/database/local_db.json
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

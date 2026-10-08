@@ -1,0 +1,22 @@
+{
+  "name": "personaflow-ai",
+  "version": "1.0.0",
+  "description": "PersonaFlow AI - Understand the User. Adapt the Experience. Evolve With Them.",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "test": "npm run test --prefix server",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "personalization",
+    "ai",
+    "adaptive-learning",
+    "gemini",
+    "react",
+    "express",
+    "supabase"
+  ],
+  "author": "PersonaFlow AI Team",
+  "license": "MIT"
+}
